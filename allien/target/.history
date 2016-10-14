@@ -1,0 +1,21 @@
+set scalaVersion :="2.11.8"
+set Version :="1.0-SNAPSHOT"
+set version :="1.0-SNAPSHOT"
+session save
+set scalaVersion :="2.11.8"
+session save
+reload
+exit
+reload
+compile
+run
+exit
+reload
+compile
+run
+test
+compile
+test
+compile
+run
+test
