@@ -1,5 +1,5 @@
-[0m[[0mdebug[0m] [0mRunning TaskDef(net.myproject.ClassAlienTest, sbt.SubclassFingerprintWrapper@3af3987a, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(net.myproject.ClassAlienTest, sbt.SubclassFingerprintWrapper@7e701bf5, false, [SuiteSelector])[0m
 [0m[[0mdebug[0m] [0mSummary for ScalaTest not available.[0m
-[0m[[0minfo[0m] [0mPassed: Total 15, Failed 0, Errors 0, Passed 15[0m
+[0m[[0minfo[0m] [0mPassed: Total 16, Failed 0, Errors 0, Passed 16[0m
 [0m[[0mdebug[0m] [0mPassed tests:[0m
 [0m[[0mdebug[0m] [0m	net.myproject.ClassAlienTest[0m

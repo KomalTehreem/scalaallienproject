@@ -122,6 +122,15 @@ class ClassAlien(namez:String) extends Allien
         weight("100 kg")
         height("6 ft")
     }
+    else if(name=="Scalpe")
+    {
+      allien("Scalpe")
+        legs(4)
+        colors("Yellow")
+        hair(false)
+        weight("110 kg")
+        height("5 ft")
+    }
     else
     {
       allien("none")
