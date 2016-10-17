@@ -1,5 +1,6 @@
-package net.myproject
 
+package net.myproject
+//ghy
 import org.scalatest.FunSuite
 //import net.myproject.ClassAlien
 
@@ -44,11 +45,6 @@ class ClassAlienTest extends FunSuite
     {      
         val p =new ClassAlien("Inappropriate")
         assert(p.name == "Inappropriate")
-    }
-    test("the name is set correctly 9") 
-    {      
-        val p =new ClassAlien("Scalpe")
-        assert(p.name == "Scalpe")
     }
     test("the allien trait 1")
     {
