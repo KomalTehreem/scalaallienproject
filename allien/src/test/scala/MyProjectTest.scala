@@ -1,5 +1,6 @@
-package net.myproject
 
+package net.myproject
+//ghy
 import org.scalatest.FunSuite
 //import net.myproject.ClassAlien
 
