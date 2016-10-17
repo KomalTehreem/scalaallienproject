@@ -1,26 +1,11 @@
 package net.myproject
 
-trait Allien
-{
-  def allien(allienmessage:String):Int=
-  {
-    if(allienmessage!="none")
-      println("\n\n"+allienmessage+" ia an Allian.");
-    else
-      println("\n\nYou didn't entered the correct name of an allien.\n\n");
-    return 1;
-  }
-  def legs(legsmessage:Int):Int
-  def colors(colormessage:String):Int
-  def hair(hairmessage:Boolean):Int
-  def weight(weightmessage:String):Int
-  def height(heightmessage:String):Int
-}
+import net.myprojecttrait._
 
 class ClassAlien(namez:String) extends Allien
 {
   var name:String=namez.capitalize
-  //override def allien(allienmessage:String):Int
+  // print no of legs
   override def legs(legsmessage:Int):Int=
   {
     if(legsmessage >1)
@@ -29,11 +14,13 @@ class ClassAlien(namez:String) extends Allien
       println("It has "+legsmessage+" leg.")
     return 1;
   }  
+  //print the color
   override def colors(colormessage:String):Int=
   {
     println("Its color is "+colormessage+".");
     return 1;
   }
+  //tell whether allien have hair or not
   override def hair(hairmessage:Boolean):Int=
   {
     if(hairmessage)
@@ -47,16 +34,19 @@ class ClassAlien(namez:String) extends Allien
       return 0;
     }
   }
+  //print weight of an allien
   override def weight(weightmessage:String):Int=
   {
     println("Its weight is "+weightmessage+" .")
     return 1;
   }
+  //print height
   override def height(heightmessage:String):Int=
   {
     println("Its height is "+heightmessage+" .\n\n")
     return 1;
   }
+  //check the name of allien and then pass different characteristics to traits functions to print them
   def printer()
   {
     if(name=="Turian")
@@ -121,6 +111,15 @@ class ClassAlien(namez:String) extends Allien
         hair(false)
         weight("100 kg")
         height("6 ft")
+    }
+    else if(name=="Scalpe")
+    {
+      allien("Scalpe")
+        legs(4)
+        colors("Yellow")
+        hair(false)
+        weight("110 kg")
+        height("5 ft")
     }
     else
     {
